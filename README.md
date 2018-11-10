@@ -20,33 +20,43 @@
 </ul> 
 
 <img src="Foto1.jpg" alt="MiFoto" width="230" height="300">
-</HTML>
 
+<br>
+<br>
+<hr>
 <h3> Indice </h3>
+<A href="#Diario">Diario de campo</A>
+<br><A href="#Documentos">Documentos</A>
+<br><A href="#Reproducciones">Reproducciones</A>
+<br><A href="#Desarrollo">Desarrollo de una Solución Java OO</A>
+<br><A href="#Reflexiones">Reflexiones y autoevaluación</A>
+<br>
+<br>
+<hr>
 
 
-<h3> Diario de campo: </h3> aquí escribirás tus objetivos, reflexiones, criterios de
+<A name="Diario"><h3> Diario de campo: </h3> </A>aquí escribirás tus objetivos, reflexiones, criterios de
 evaluación propios, asociaciones relacionadas con el desarrollo de tu curso,
 que proporcionen pistas sobre su evolución. El diario de campo es el
 material de base para la reflexión sobre tu propio proceso de aprendizaje.
 
-<h3> Documentos: </h3> aquí harás una selección de los documentos producidos en
+<A name="Documentos"><h3> Documentos: </h3> </A>aquí harás una selección de los documentos producidos en
 las actividades desarrolladas en cada una de las 4 semanas del curso,
 también se pueden incluir trabajos realizados por iniciativa propia o por
 sugerencias del profesor.
 
-<h3> Reproducciones:</h3> incluye ejemplos de productos desarrollados fuera del
+<A name="Reproducciones"><h3> Reproducciones:</h3> </A>incluye ejemplos de productos desarrollados fuera del
 material del curso, por ejemplo, la reproducción de un correo electrónico
 que te brindó algunas pistas sobre el trabajo, o la reproducción de un chat
 con un experto que consideraste importante, o una página Web de la que
 obtuviste información relevante,…etc.
 
-<h3> Desarrollo de una Solución Java OO: </h3> aquí incluirás la explicación del
+<A name="Desarrollo"><h3> Desarrollo de una Solución Java OO: </h3> </A>aquí incluirás la explicación del
 desarrollo de una aplicación propia y original escrita en Java, en la pongas
 en práctica lo aprendido en el curso, de utilidad en tu desempeño
 profesional (anexando código y/o modelos elaborados).
 
-<h3> Reflexiones y autoevaluación:</h3> incluye a manera de ensayo las reflexiones y
+<A name="Reflexiones"><h3> Reflexiones y autoevaluación:</h3> </A>incluye a manera de ensayo las reflexiones y
 autoevaluación de tu proceso de aprendizaje en la materia, dando
 respuesta a las siguientes 15 cuestiones:
 <br>
@@ -65,3 +75,8 @@ respuesta a las siguientes 15 cuestiones:
 <br> ¿Cómo aprovechaste la comunicación con tus colegas? ¿Por qué?
 <br> ¿Cómo mejoraría tu proceso de aprendizaje?
 <br> ¿Cuál es tu opinión acerca del curso?
+
+
+<br>
+
+</HTML>
