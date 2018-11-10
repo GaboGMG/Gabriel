@@ -21,7 +21,7 @@
         <p>Este es el contenido principal de mi web</p>
         <div>
           <p>Aquí tenéis una imagen.</p>
-          <img src="http://dominio.com/imagen.jpg" alt="paisaje">          
+          <img src="fot_3.jpg" alt="paisaje">          
         </div>
       </article>      
     </section>
