@@ -142,26 +142,51 @@ Imagen de la aplicacion
 autoevaluación de tu proceso de aprendizaje en la materia, dando
 respuesta a las siguientes 15 cuestiones:
 <br>
-<br> ¿Qué aprendiste? ¿Qué te falta por aprender?
+<br> ¿Qué aprendiste?
+
+Aprendi los tipos de Aplicaciones distribuidas, asi como reafirmar el conocimiento de progracion y UML
+
+<br> ¿Qué te falta por aprender?
+
+Mucho, creo que apesar de la experiencia en los diferentes trabajos y la escuela aun falta mucho por aprender y mejor, tal como la programacion, 
+base de datos, Procesos, ingles entre muchas otras cosas.
+
 <br> ¿Cómo aplicarás lo aprendido en tu vida profesional?
+
+En la cuestio de UML ayuda a la organizacion y documentacion de procesos, para el tema de las aplicaciones distribuidas me ayudara a entender 
+un poco mejor el funcionamiento
+
 <br> ¿Cómo fue tu proceso personal de aprendizaje?
+
+Mi proceso es lento, trato de leer una o dos veces los archivos que se anexan y aparte busco funtes donde pueda ver ejemplos para tratar de 
+tener un mayor entendiento en los temas
+
 <br> ¿Qué aprendiste de tu profesor?
+
 <br> ¿Qué aprendiste de las actividades?
+Aprendi a enfocarme y tomar prioridades a las actividades.
 <br> ¿Qué aprendiste de los contenidos y recursos del curso?
+Aprendi temas relacionados con las aplicaciones distribuidas, conceptos nuevos para mi que en ocasiones se me dificultaba digerir
 <br> ¿Qué aprendiste de tus colegas?
+Los foros son muy distintos de cada uno, aprendi a ver las diferentes perspectivas documentadas en los foros
 <br> ¿Qué aprendiste de ti mismo?
+Aprendi que tal vez no tengo la experiencia profesional, pero soy capaz de lo que me proponga, ya q arme una aplicacion y una web 
+aunque sea sencillas en dos dias
 <br> ¿Cómo aprovechaste los contenidos y recursos ofrecidos por el profesor? ¿Por qué?
+Seran aprovechados en lo laboral y personal. Usando diagramas tipo UML para documentar actividades ya que independiente a la programacion
+pueden ser utilizado para temas variados
 <br> ¿Cómo aprovechaste la retroalimentación dada por el profesor? ¿Por qué?
+La tomo bien, me agrada que se da el tiempo de leer cada uno de nuestros post para dar una retroalimentacion objetiva
 <br> ¿Cómo aprovechaste los canales de comunicación con el profesor? ¿Por qué?
+El backboar es bueno, aunque en ocasiones falla, en el tercer foro no logre ver ningun archivo ni ninguna imagen lo que me complico realizarlo
 <br> ¿Cómo aprovechaste las actividades de aprendizaje? ¿Por qué?
+Las aprovecho para aprender algo nuevo y reafirmar mis conocimientos de las demas materias
 <br> ¿Cómo aprovechaste la comunicación con tus colegas? ¿Por qué?
+la unica comunicacion fue mediante el foro dando retro a los post, la cual me parece en ocasiones mala, porque no nos llega una notificacion si alguien retroalimenta nuestro post, y creo q muchas veces no lo checamos y se queda en el olvido esa retro
 <br> ¿Cómo mejoraría tu proceso de aprendizaje?
-<br> ¿Cuál es tu opinión acerca del curso?
-
-
+teniendo mas informacion del tema, dejando bibliografias para leer, documentales para ver, etc.
+<br> ¿Cuál es tu opinión acerca del curso? 
+bueno, sin embargo, creo podria mejorar
 <br>
-
-
-
 
 </HTML>
