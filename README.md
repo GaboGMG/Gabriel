@@ -1,5 +1,6 @@
 <HTML>
-<Title> Gabriel Mendoza Garcia</Title>
+
+
 <h1><center>Gabriel Mendoza Garcia</center></h1>
 <hr>
 <h2> Datos Principales: </h2>
@@ -35,21 +36,61 @@
 <hr>
 
 
-<A name="Diario"><h3> Diario de campo: </h3> </A>aquí escribirás tus objetivos, reflexiones, criterios de
-evaluación propios, asociaciones relacionadas con el desarrollo de tu curso,
-que proporcionen pistas sobre su evolución. El diario de campo es el
-material de base para la reflexión sobre tu propio proceso de aprendizaje.
+<A name="Diario"><h3> Diario de campo: </h3> </A>
+Objetivo personal:
+Superarme en todos los aspectos de mi vida, brindando lo mejor de mí cada día, 
+tanto en el aspecto laboral como en el aspecto personal.
 
-<A name="Documentos"><h3> Documentos: </h3> </A>aquí harás una selección de los documentos producidos en
-las actividades desarrolladas en cada una de las 4 semanas del curso,
-también se pueden incluir trabajos realizados por iniciativa propia o por
-sugerencias del profesor.
+Reflexiones: 
 
-<A name="Reproducciones"><h3> Reproducciones:</h3> </A>incluye ejemplos de productos desarrollados fuera del
-material del curso, por ejemplo, la reproducción de un correo electrónico
-que te brindó algunas pistas sobre el trabajo, o la reproducción de un chat
-con un experto que consideraste importante, o una página Web de la que
-obtuviste información relevante,…etc.
+Aplicacion distribuida es una aplicación con distintos componentes 
+que se ejecutan en entornos separados, normalmente en diferentes plataformas 
+conectadas a través de una red. 
+
+Las típicas aplicaciones distribuidas son de dos niveles (cliente-servidor), 
+tres niveles (cliente-middleware-servidor) y multinivel.
+
+Criterios de evaluación propios. 
+Consideraria que mi desempeño fue bueno durante 
+el tiempo que duro la clase, soy capas y dedicado al realizar las actividades 
+y foros. Presente problemas por lo tiempos ya que en muchas ocasiones tuve que 
+trabajar mas del horario por temas de cierre de proyectos.
+
+
+<img src="Pregunta1.jfif" alt="Apli Distr" width="400" height="500">
+
+
+
+<A name="Documentos"><h3> Documentos: </h3> </A>
+
+Coloco los entregables realizados durante la clase.
+<br>
+<a href="Entregable1.docx">
+<img src="Word.png" alt="Apli Distr" width="100" height="100">
+</a>
+<br>
+<b>Entregable 1</b>
+<br>
+<a href="Entregable2.doc">
+<img src="Word.png" alt="Apli Distr" width="100" height="100">
+</a>
+<br>
+<b>Entregable 2</b>
+
+
+
+<A name="Reproducciones"><h3> Reproducciones:</h3> </A>
+
+Referencias sobre Aplicaciones distribuidas:
+
+<br>
+<a href=http://heybd.blogspot.com/2011/03/que-es-uml.html>
+<img src="uml.jpg" alt="Apli Distr" width="100" height="100">
+</a>
+<br>
+<b>Link UML</b>
+<br>
+
 
 <A name="Desarrollo"><h3> Desarrollo de una Solución Java OO: </h3> </A>aquí incluirás la explicación del
 desarrollo de una aplicación propia y original escrita en Java, en la pongas
@@ -78,5 +119,8 @@ respuesta a las siguientes 15 cuestiones:
 
 
 <br>
+
+
+
 
 </HTML>
