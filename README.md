@@ -85,7 +85,7 @@ Referencias sobre Aplicaciones distribuidas:
 
 <br>
 
-<a href=http://heybd.blogspot.com/2011/03/que-es-uml.html>
+<a href="http://heybd.blogspot.com/2011/03/que-es-uml.html">
 <img src="uml.jpg" alt="Apli Distr" width="100" height="100">
 </a>
 <br>
