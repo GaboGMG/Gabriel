@@ -58,10 +58,50 @@ trabajar mas del horario por temas de cierre de proyectos.
 
 <A name="Reproducciones"><h3> Reproducciones:</h3> </A>
 Referencias sobre Aplicaciones distribuidas:<br>
+
+<table border="0"> 
+<tr>
+<td align="center">
 <a href="http://heybd.blogspot.com/2011/03/que-es-uml.html">
 <img src="uml.jpg" alt="Apli Distr" width="100" height="100">
-</a><br><b>Link UML</b><br>
-<br><b>Platica APP Distribuidas</b><br>
+</a>
+</td>
+<td align="center">
+<a href="https://www.youtube.com/watch?v=wSqBnj7fC8Q">
+<img src="Youtube.png" alt="Apli Distr" width="100" height="100">
+</a>
+</td>
+<td align="center">
+<a href="https://www.youtube.com/watch?v=MLYM_DeoEoc">
+<img src="Youtube.png" alt="Apli Distr" width="100" height="100">
+</a>
+</td>
+</tr> 
+<tr>
+<td>
+<b>Link UML</b>
+</td>
+<td>
+<b>Curso Java</b>
+</td>
+<td>
+<b>¿Que es un Sistema Distribuido?</b>
+</td>
+</tr> 
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <A name="Desarrollo"><h3> Desarrollo de una Solución Java OO: </h3></A>
 Anexo codigo, se creo en netbeans swing.
 Basicamente lo que realiza la aplicacion es mostrar un menu para seleccionar la cena de una persona.
@@ -107,4 +147,3 @@ la unica comunicacion fue mediante el foro dando retro a los post, la cual me pa
 teniendo mas informacion del tema, dejando bibliografias para leer, documentales para ver, etc.
 <br> <b>¿Cuál es tu opinión acerca del curso? </b>
 bueno, sin embargo, creo podria mejorar<br>
-</HTML>
