@@ -134,7 +134,7 @@ Basicamente lo que realiza la aplicacion es mostrar un menu para seleccionar la 
 <br>
 Imagen de la aplicacion
 <br>
-<img src="Menu-Cena.PNG" alt="Codigo" width="390" height="320">
+<img src="MenuCena.PNG" alt="Codigo" width="390" height="320">
 <br>
 
 
