@@ -90,7 +90,7 @@ Referencias sobre Aplicaciones distribuidas:
 <br>
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=0siwMCBVejE"  allowfullscreen></iframe>
+
 <br>
 <b>Platica APP Distribuidas</b>
 <br>
