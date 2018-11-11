@@ -1,3 +1,6 @@
+<HTML>
+
+
 <h1><center>Gabriel Mendoza Garcia</center></h1>
 <hr>
 <h2> Datos Principales: </h2>
@@ -91,6 +94,7 @@ Referencias sobre Aplicaciones distribuidas:
 
 
 
+
 <br>
 <b>Platica APP Distribuidas</b>
 <br>
@@ -110,224 +114,28 @@ Referencias sobre Aplicaciones distribuidas:
 
 Anexo codigo, se creo en netbeans swing.
 
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
-import javax.swing.border.*;
-import javax.swing.event.*;
-import java.text.*;
- 
-public class MenuCena extends JFrame implements ItemListener, ActionListener
-{
-	String platos[] =   {"Entrantes","Carnes","Pescados","Postres","Bebidas","Cafe-Copa"};
-	String variedades[][]={
-				{"Jamon","Marisco","Ensalada","QuitaGranos"},
-				{"Ternera","Chuleton","Pato a la naranja","Filete de cerdo","OsoBuco","Filete Plancha"},
-				{"Merluza en salsa","Bacalao al pil pil","Besugo"},
-				{"Tarta al wiski","Helado","Postre de la casa"},
-				{"Vino Blanco","Vino Tinto","Agua","Cerveza"},
-				{"solo","cortado","con leche","pacharan","whisky","nada"}
-			};
-	String precio[][]={	{"12","15.5","6.3","20"},
-							{"10.0","15.5","9.90","2.5","4.5","4.5"},
-							{"9.9","10","14"},
-							{"3","3","4"},
-							{"7","8","2.5","4"},
-							{"1","1.1","1.2","3","4","0"}
- };
-	ButtonGroup gb[]= new ButtonGroup[platos.length];
-	JPanel p,p1,p2,p3,p4,p2i[]= new JPanel[gb.length];
-	JButton b1,b2,b3,b4;
-	JTextArea ta;
-	JScrollPane tajsp;
-	JScrollPane jsp;
-	JRadioButton rb[][];//= new JRadioButton[platos.length][variedades[5].length];
-	JCheckBox cb[]= new JCheckBox[platos.length];
-	boolean agotado[][];
-	BorderLayout bl;
-	Font negro,rojo;
- 
-	public MenuCena()
-	{	int i,j;
-		Insets insets= new Insets(65,50,65,50);
-		p =new JPanel(new GridLayout(4,1));
-		p2=new JPanel(new GridLayout(1,gb.length));
-		p1=new JPanel(new GridLayout(1,1));
-		for(i=0;i<gb.length;i++)
-		{
-			p2i[i]=new JPanel(new GridLayout(variedades.length,1));
-			p2i[i].setBorder(BorderFactory.createTitledBorder(
-BorderFactory.createEtchedBorder(),platos[i]));
-		}
-		p3=new JPanel(new GridLayout(1,1));
-		p4=new JPanel(new BorderLayout());//new GridLayout(1,1));
- 
-		// panel 1		
-		for(i=0;i<cb.length; i++)
-		{
-			cb[i]= new JCheckBox(platos[i]);
-			cb[i].addItemListener(this);
-			cb[i].setBackground(Color.green);
-			p1.add(cb[i]);
-		}
- 
-		// panel 2		
-		rb= new JRadioButton[platos.length][];
-		agotado = new boolean[platos.length][];
-		for(i=0;i<platos.length;i++)
-		{	rb[i]= new JRadioButton[variedades[i].length];
-			agotado[i]= new boolean[variedades[i].length];
-		}
-		for(i=0;i<gb.length; i++)
-		{
-			gb[i]= new ButtonGroup();
-	for (j=0; j<variedades[i].length; j++)
-			{
-				rb[i][j]= new JRadioButton(variedades[i][j],false);
-				agotado[i][j]= false;
-				rb[i][j].addItemListener(this);
-				rb[i][j].setEnabled(false);
-				gb[i].add(rb[i][j]);
-				p2i[i].add(rb[i][j]);
-				rb[i][j].setBackground(Color.cyan);
-				rb[i][j].setToolTipText(variedades[i][j]+"-->"+precio[i][j]);
-			}
-			rb[i][0].setSelected(true);
-			p2.add(p2i[i]);
-		}
- 
-		// Panel 3  area de texto.
-		ta = new JTextArea(" CAFETERIA CANDY ELIJA un menu.",15,40);
-		ta.setBackground(Color.green);
-		ta.setBorder(BorderFactory.createTitledBorder(BorderFactory.createBevelBorder(BevelBorder.LOWERED ),"MENU ELEGIDO"));//createEtchedBorder(),"MENU ELEGIDO"));
-		ta.setEditable(false);
-		tajsp = new JScrollPane(ta);
-	//	try{		
-		tajsp.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
-		tajsp.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
-	//	}catch(IllegalArgumentException iae){ta.append("Argumento ilegal");}
-		//panel 4 Botones
-		b1 = new JButton("SELECCIONAR ");
-		b2 = new JButton("DETO NO KEDA");
-		b3 = new JButton("    REPONER    ");
-		b4 = new JButton("    SALIR   ");
-		b3.setBackground(Color.red);
-		b1.setBackground(Color.green);
-		b2.setBackground(Color.white);
- 
-		b1. setMargin(insets);
-		b2. setMargin(insets);
-		b3. setMargin(insets);
-		b1.addActionListener(this);
-		b2.addActionListener(this);
-		b3.addActionListener(this);
-		b4.addActionListener(new ActionListener(){public void actionPerformed( ActionEvent aw)
-				{System.exit(-2);	}});
- 
-		p4.add(b3,BorderLayout.WEST);
-		p4.add(b1,BorderLayout.CENTER);
-		p4.add(b2,BorderLayout.EAST);
-		p4.add(b4,BorderLayout.SOUTH);
- 
-		p3.add(tajsp);// area de texto con deslizadores.
-		p.add(p1);		p.add(p2);		p.add(p3);		p.add(p4);
-	this.getContentPane().add(p);
-	}
- 
-	public void itemStateChanged(ItemEvent ie)
-	{
-		Object o;
-		o=ie.getSource();
-		if (o instanceof JCheckBox)
-		{
-			for(int i=0;i<platos.length;i++)
-			{
-				if((JCheckBox)ie.getItemSelectable()==cb[i])
-					if(((JCheckBox)o).isSelected())
-						activarBotonera(i,variedades[i].length, true);
-					else
-						activarBotonera(i,variedades[i].length,false);
-			}
-		}
-	}
- 
-	private void activarBotonera(int k,int n,boolean sw)
-	{
-		for(int i=0; i<n;i++)
-	if(sw && !agotado[k][i])	rb[k][i].setEnabled(true);
-			else	rb[k][i].setEnabled(false);
-	}
- 
-	public void actionPerformed(ActionEvent ae)
-	{
-		NumberFormat formato ;
-		double tot,x;
-		int i,j;
-		formato =  NumberFormat.getNumberInstance();
-		formato.setMaximumFractionDigits(2);
-		formato.setMinimumFractionDigits(2);
-		formato.setMinimumIntegerDigits(3);
-		if(ae.getSource() instanceof JButton)
-		{
-			if(((JButton)ae.getSource())==b1)	// SELECCIONAR
-			{	// borrar pantalla previa
-				ta.setText("");
-				tot=0;
-				for(i=0;i<platos.length;i++)
-				{
-					if(cb[i].isSelected())
-						for(j=0; j<variedades[i].length;j++)
-							if(!agotado[i][j] && rb[i][j].isSelected())
-							{	x=Double.parseDouble(precio[i][j]);
-								ta.append("precio   :    "+formato.format(x)+" ¦  "+cb[i].getText() + ": " + rb[i][j].getText()+"\n");
-								tot += x;
-							}
-				}
-				double iva = tot*.7;
-				ta.append("TOTAL =    "+ formato.format(tot)+"\nIVA (7%) = "+ formato.format(tot*.07));//iva));
-				ta.setForeground(Color.red);
-				ta.append( "\nFACTURA="+formato.format(tot*1.07));
-				repaint();
-				ta.setForeground(Color.BLUE);
-			}
-			else if(((JButton)ae.getSource())==b2) // AGOTADO 
-			{
-				for(i=0;i<platos.length;i++)
-					if(cb[i].isSelected())
-						for(j=0; j<variedades[i].length;j++)
-							if( rb[i][j].isSelected())
-							{	agotado[i][j] =true;
-								rb[i][j].setEnabled(false);
-							}
-			}
-			else  if(((JButton)ae.getSource())==b3) // REPONER
-			{
-				for(i=0;i<platos.length;i++)
-					if(cb[i].isSelected())
-						for(j=0; j<variedades[i].length;j++)
-						{
-							// reponer todos.
-							//if(!rb[i][j].isEnabled() && agotado[i][j])  // no se pueden seleccionar si desactivados
-							{
-								agotado[i][j] =false;
-								rb[i][j].setEnabled(true);
-							}
-						}
-			}
-		}
-	}
-	public static void main(String[]args)
-	{
-		MenuCena mn= new MenuCena();
-		mn.addWindowListener(new WindowAdapter(){
-			public void windowClosing(WindowEvent we)
-			{	System.exit(1);	}});
-		mn.setSize(600,800);
-		mn.setResizable(false);
-		mn.setVisible(true);
-	}
-}
+Basicamente lo que realiza la aplicacion es mostrar un menu para seleccionar la cena de una persona.
 
+<br>
+<br>
+<img src="uno.PNG" alt="Codigo" width="700" height="350">
+<br>
+<img src="dos.PNG" alt="Codigo" width="700" height="350">
+<br>
+<img src="tres.PNG" alt="Codigo" width="700" height="350">
+<br>
+<img src="cuatro.PNG" alt="Codigo" width="700" height="350">
+<br>
+<img src="cinco.PNG" alt="Codigo" width="700" height="350">
+<br>
+<img src="sexto.PNG" alt="Codigo" width="700" height="350">
+<br>
+<img src="septimo.PNG" alt="Codigo" width="670" height="120">
+<br>
+Imagen de la aplicacion
+<br>
+<img src="Menu-Cena.PNG" alt="Codigo" width="390" height="320">
+<br>
 
 
 <A name="Reflexiones"><h3> Reflexiones y autoevaluación:</h3> </A>incluye a manera de ensayo las reflexiones y
